@@ -63,7 +63,7 @@ A flash loan powered DEX arbitrage system built on Ethereum. Consists of a Solid
 - Two-leg atomic flash loan cycle: borrow → swap A→B on DEX A → swap B→A on DEX B → repay, keep profit
 - Python monitor estimates gas in USD and only flags opportunities above a configurable profit threshold
 - Telegram alerting, colour-coded console output, and structured logging
-- Shelved after testing — real arbitrage requires sub-millisecond latency and private mempool access that's outside weekend-project scope. The architecture is solid and documented.
+- Shelved after testing, real arbitrage requires sub-millisecond latency and private mempool access that's outside weekend-project scope. The architecture is solid and documented.
 ---
  
 ### [CharityClarity dApp](https://github.com/EthanHunt3r/IFB452_VerificationApp)
