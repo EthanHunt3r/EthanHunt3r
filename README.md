@@ -102,7 +102,7 @@ Brisbane-based. Available immediately.
 ---
  
 <div align="center">
-📧 ethanhunterbeschel@hotmail.com &nbsp;|&nbsp; 📍 Nundah, Brisbane QLD &nbsp;|&nbsp; 📱 0409 096 794
+ethanhunterbeschel@hotmail.com &nbsp;|&nbsp; Nundah, Brisbane QLD
  
 </div>
 
