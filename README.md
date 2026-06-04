@@ -1,6 +1,7 @@
 <div align="center">
-# Ethan Hunter
-### IT Student · Systems Builder · Brisbane, QLD
+ 
+Ethan Hunter - 
+IT Student · Systems Builder · Brisbane, QLD
  
 [![QUT](https://img.shields.io/badge/QUT-Bachelor%20of%20IT%20%28Computer%20Science%29-005A9C?style=flat-square)](https://www.qut.edu.au/)
 [![Graduating](https://img.shields.io/badge/Graduating-Mid%202026-brightgreen?style=flat-square)]()
