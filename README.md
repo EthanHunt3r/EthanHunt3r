@@ -13,9 +13,9 @@ IT Student · Systems Builder · Brisbane, QLD
  
 ## About Me
  
-Final-year IT (Computer Science) student at QUT, graduating mid-2026. I work across full-stack development, network security, systems integration, and blockchain — with a habit of building things end-to-end rather than stopping at the prototype stage.
+Final-year IT (Computer Science) student at QUT, graduating mid-2026. I work across full-stack development, network security, systems integration, and blockchain, with a habit of building things end-to-end rather than stopping at the prototype stage.
  
-Outside of study I run my own IT contracting work, deploying and integrating technology stacks for small businesses — POS systems, inventory management, accounting integrations, and everything in between. I like solving problems that sit at the intersection of code, infrastructure, and people.
+Outside of study I run my own IT contracting work, deploying and integrating technology stacks for small businesses, POS systems, inventory management, accounting integrations, and everything in between. I like solving problems that sit at the intersection of code, infrastructure, and people.
  
 ---
  
@@ -58,7 +58,7 @@ Outside of study I run my own IT contracting work, deploying and integrating tec
 ### [Crypto Arbitrage Bot](https://github.com/EthanHunt3r/Arbitrage_Testing)
 `Solidity` `Python` `Web3`
  
-A flash-loan-powered DEX arbitrage system built on Ethereum. Consists of a Solidity smart contract using the Balancer V2 Vault for 0% fee flash loans, a Python opportunity monitor scanning Uniswap V2, SushiSwap, and PancakeSwap in real time, and a full offline test suite validating the scanning logic without an RPC connection.
+A flash loan powered DEX arbitrage system built on Ethereum. Consists of a Solidity smart contract using the Balancer V2 Vault for 0% fee flash loans, a Python opportunity monitor scanning Uniswap V2, SushiSwap, and PancakeSwap in real time, and a full offline test suite validating the scanning logic without an RPC connection.
  
 - Two-leg atomic flash loan cycle: borrow → swap A→B on DEX A → swap B→A on DEX B → repay, keep profit
 - Python monitor estimates gas in USD and only flags opportunities above a configurable profit threshold
@@ -69,12 +69,12 @@ A flash-loan-powered DEX arbitrage system built on Ethereum. Consists of a Solid
 ### [CharityClarity dApp](https://github.com/EthanHunt3r/IFB452_VerificationApp)
 `Solidity` `JavaScript` `ethers.js` `HTML`
  
-A milestone-based charity escrow protocol on Ethereum (Sepolia). Donors fund campaigns, funds sit in escrow, and a registered auditor releases each milestone tranche once the charity provides evidence — creating a transparent, trustless accountability layer for charitable donations.
+A milestone-based charity escrow protocol on Ethereum (Sepolia). Donors fund campaigns, funds sit in escrow, and a registered auditor releases each milestone tranche once the charity provides evidence creating a transparent, trustless accountability layer for charitable donations.
  
-- Three-contract architecture: `CampaignContract`, `EscrowContract`, `GovernanceContract` — each independently deployable and cross-wired post-deployment
+- Three-contract architecture: `CampaignContract`, `EscrowContract`, `GovernanceContract`, each independently deployable and cross-wired post-deployment
 - Role-based frontend with tabs that dynamically surface only the actions the connected wallet can perform (Owner / Charity / Auditor / Donor)
 - Full audit trail on-chain for every milestone approval and rejection
-- Built for QUT's IFB452 Blockchain unit — designed as an academic demo but documented with production security notes
+- Built for QUT's IFB452 Blockchain unit, designed as an academic demo but documented with production security notes
 ---
  
 ## Areas of Study
