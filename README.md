@@ -64,6 +64,8 @@ A containerized Express service with a public route and a Basic Auth–protected
 - Two-job GitHub Actions workflow: builds and pushes to GHCR with Buildx layer caching, then SSHs into the server via key auth, pulls the new image, restarts the container, and polls health status before completing
 - Config caching layer so the app doesn't hit Postgres on every request, with credentials rotatable in the DB without a rebuild or redeploy
 - End-to-end secrets flow documented from GitHub Secrets through to the `app_config` table
+
+---
  
 ### [Crypto Arbitrage Bot](https://github.com/EthanHunt3r/Arbitrage_Testing)
 `Solidity` `Python` `Web3`
