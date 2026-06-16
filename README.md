@@ -55,14 +55,15 @@ Outside of study I run my own IT contracting work, deploying and integrating tec
  
 ## Projects
 
-DockerDeploymentPractice
-Node.js Docker PostgreSQL GitHub Actions
-A containerized Express service with a public route and a Basic Auth–protected route, where credentials and the protected secret live in Azure Database for PostgreSQL rather than a .env file. Built and deployed via a full GitHub Actions CI/CD pipeline to a remote Linux server.
+### [DockerDeploymentPractice](https://github.com/EthanHunt3r/DockerDeploymentPractice)
+`Node.js` `Docker` `PostgreSQL` `GitHub Actions`
 
-Multi-stage Dockerfile with a non-root runtime user and a built-in HEALTHCHECK; only DATABASE_URL is ever injected at runtime, no secrets baked into the image
-Two-job GitHub Actions workflow: builds and pushes to GHCR with Buildx layer caching, then SSHs into the server via key auth, pulls the new image, restarts the container, and polls health status before completing
-Config caching layer so the app doesn't hit Postgres on every request, with credentials rotatable in the DB without a rebuild or redeploy
-End-to-end secrets flow documented from GitHub Secrets through to the app_config table
+A containerized Express service with a public route and a Basic Auth–protected route, where credentials and the protected secret live in Azure Database for PostgreSQL rather than a `.env` file. Built and deployed via a full GitHub Actions CI/CD pipeline to a remote Linux server.
+
+- Multi-stage Dockerfile with a non-root runtime user and a built-in `HEALTHCHECK`; only `DATABASE_URL` is ever injected at runtime, no secrets baked into the image
+- Two-job GitHub Actions workflow: builds and pushes to GHCR with Buildx layer caching, then SSHs into the server via key auth, pulls the new image, restarts the container, and polls health status before completing
+- Config caching layer so the app doesn't hit Postgres on every request, with credentials rotatable in the DB without a rebuild or redeploy
+- End-to-end secrets flow documented from GitHub Secrets through to the `app_config` table
  
 ### [Crypto Arbitrage Bot](https://github.com/EthanHunt3r/Arbitrage_Testing)
 `Solidity` `Python` `Web3`
